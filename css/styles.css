@@ -26,12 +26,10 @@ div#third {
     color: white;
 }
 
-/* so can we do it without that extra div */
+
 div.indiv {
     width: 120px;
     height: 30px;
-    /* float: right; */
-    /* margin-bottom: 5px; */
     position: absolute;
     text-align: center;
     border: 1px solid black;
@@ -40,7 +38,7 @@ div.indiv {
 }
 
 p {
-    /* clear: both; */
+
     margin-top: 25px;
     margin-bottom: 5px;
     padding: 10px;
@@ -70,4 +68,9 @@ p {
         width: 100%;
     }
 
+}
+@media (max-width: 767px) {
+.marg {
+    margin-bottom: 20px;
+}
 }
