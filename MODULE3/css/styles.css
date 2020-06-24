@@ -1,0 +1,35 @@
+@media (min-width: 768px)  {
+
+    .hide-ele {
+        display: none;
+    }
+      
+}
+.nav-item {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.container-fluid .row div div {
+    background-color: yellow; 
+    padding: 20px;
+    border: 1px solid yellow;
+    border-radius: 25px;
+    margin-top: 5px;
+
+}
+#btp {   
+    position: absolute;
+    right: 20px;
+    bottom: 6px;
+}
+#enddiv {
+    height: 50px;
+    position: relative;
+}
+#navb {
+    padding-left: 10px;
+}
