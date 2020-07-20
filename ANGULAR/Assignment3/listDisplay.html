@@ -1,0 +1,22 @@
+<ul>
+    <li ng-repeat="item in dirCtrl.found">
+        <div>
+            <div class="fontforli">
+                {{item.name}} ({{item.short_name}})
+            </div>
+
+            <div>
+                <div id="spldiv">{{item.description}}
+                </div>
+            </div>
+
+            <button ng-click="dirCtrl.onRemove({index: $index});">
+                Don't want this one!
+            </button>
+        </div>
+
+        <hr>
+    </li>
+</ul>
+
+<div ng-transclude></div>
