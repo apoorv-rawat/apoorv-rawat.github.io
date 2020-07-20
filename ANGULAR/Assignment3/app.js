@@ -14,7 +14,7 @@
     function FoundItemsDirective() {
 
         var ddo = {
-            templateUrl: 'listDisplay.html',
+            templateUrl: 'ANGULAR/Assignment3/listDisplay.html',
             scope: {
                 found: '<',
                 onRemove: '&'
