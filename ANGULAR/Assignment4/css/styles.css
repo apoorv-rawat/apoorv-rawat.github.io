@@ -1,0 +1,7 @@
+.categs {
+    margin-bottom: 5px; 
+}
+.categs:hover {
+    cursor: pointer;
+    background-color: darkgray;
+} 
