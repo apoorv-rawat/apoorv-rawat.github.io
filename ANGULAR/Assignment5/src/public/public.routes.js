@@ -13,15 +13,15 @@ function routeConfig ($stateProvider) {
   $stateProvider
     .state('public', {
       abstract: true,
-      templateUrl: 'src/public/public.html'
+      templateUrl: 'ANGULAR/Assignment5/src/public/public.html'
     })
     .state('public.home', {
       url: '/',
-      templateUrl: 'src/public/home/home.html'
+      templateUrl: 'ANGULAR/Assignment5/src/public/home/home.html'
     })
     .state('public.menu', {
       url: '/menu',
-      templateUrl: 'src/public/menu/menu.html',
+      templateUrl: 'ANGULAR/Assignment5/src/public/menu/menu.html',
       controller: 'MenuController',
       controllerAs: 'menuCtrl',
       resolve: {
@@ -32,7 +32,7 @@ function routeConfig ($stateProvider) {
     })
     .state('public.menuitems', {
       url: '/menu/{category}',
-      templateUrl: 'src/public/menu-items/menu-items.html',
+      templateUrl: 'ANGULAR/Assignment5/src/public/menu-items/menu-items.html',
       controller: 'MenuItemsController',
       controllerAs: 'menuItemsCtrl',
       resolve: {
@@ -43,13 +43,13 @@ function routeConfig ($stateProvider) {
     })
     .state('public.signup', {
       url: '/signup',
-      templateUrl: 'src/public/reg/register.html',
+      templateUrl: 'ANGULAR/Assignment5/src/public/reg/register.html',
       controller: 'RegistrationController',
       controllerAs: 'regCtrl'
     })
     .state('public.myinfo', {
       url: '/userinfo',
-      templateUrl: 'src/public/reg/user.html',
+      templateUrl: 'ANGULAR/Assignment5/src/public/reg/user.html',
       controller: 'UserInformationController',
       controllerAs: 'userCtrl'
     });
