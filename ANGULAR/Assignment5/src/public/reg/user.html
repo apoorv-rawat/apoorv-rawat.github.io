@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="css/styles.css">
+<div ng-show="userCtrl.user" class="container">
+    <h2>My Info</h2>
+
+    <h3>Hello {{userCtrl.user.firstname}} {{userCtrl.user.lastname}}!</h3>
+    <h4>
+        Email: {{userCtrl.user.email}}
+        <br>
+        Phone: {{userCtrl.user.phone}}
+        <br>
+        Your favourite food item at our restaurant is: {{userCtrl.user.name}}
+    </h4>
+    <div>
+        <img style="float: right;" width="250" height="150" ng-src="{{userCtrl.imgPath}}">
+        <h4>Item Number</h4> {{userCtrl.user.fav_itemno}}<br>
+        <h4>Item Description</h4>
+        {{userCtrl.user.desc}}
+    </div>
+</div>
+
+<div class="container" ng-show="!userCtrl.user">
+    <h2>Not Signed Up Yet. <a ui-sref="public.signup" class="userint">
+            Sign Up Now!</a>
+    </h2>
+</div>

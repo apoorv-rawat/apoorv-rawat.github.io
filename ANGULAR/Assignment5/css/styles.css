@@ -1,0 +1,31 @@
+legend {
+  color: white;
+  font-size: 1.5em;
+}
+input {
+  /* font-size: 1.2em; */
+  margin-bottom: 10px;
+  width: 400px;
+  color: black;
+}
+button {
+  font-size: 24px;
+}
+
+.ng-touched.ng-valid {
+  border: 2px green solid;
+}
+
+.ng-touched.ng-invalid {
+  border: 2px red solid;
+}
+
+#info {
+  margin-top: 20px;
+}
+/*h2.userint > a:link {
+   text-decoration: none; 
+  color: white;
+}*/
+
+
